@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*header beginning*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,13 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
+/* condensed header ul/li */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
 a {
@@ -49,7 +48,9 @@ a {
 p {
     font-size: 16px;
 }
+/*Header end*/
 
+/*hero begin*/
 .hero {
     height: 800px;
     width: 100%;
@@ -86,7 +87,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/*hero end*/
 
+/*body begin*/
 /* Condensed code to "benefit list" instead of individual names */
 .benefit-list {
     margin-bottom: 32px;
@@ -121,7 +124,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*body end*/
 
+/*footer begin*/
 .footer {
     padding: 30px;
     clear: both;
@@ -132,3 +137,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*footer end*/
